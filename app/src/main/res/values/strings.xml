@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Guia de Widgets</string>
+    <string name="widgets1">Widgets de Texto</string>
+    <string name="widgets2">Widgets de Botones</string>
+    <string name="widgets3">Widgets de Seleccion</string>
+    <string name="widgets4">Seleccion</string>
+    <string name="widgets5">Estas en Texto</string>
+    <string name="widgets6">Estas en Seleccion</string>
+    <string name="widgets7">Estas en botones</string>
+    />
+</resources>

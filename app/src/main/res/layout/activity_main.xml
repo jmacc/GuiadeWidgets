@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <!-- Alinear elementos con gravity -->
+    <!-- espacio entre elementos con padding -->
+
+    <Button
+        android:id="@+id/btnTexto"
+        android:text="@string/widgets1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+        <Button
+            android:id="@+id/btnBotones"
+            android:text="@string/widgets2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    />
+        <Button
+            android:id="@+id/btnSeleccion"
+            android:text="@string/widgets3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
