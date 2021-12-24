@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="8dp"
+    android:orientation="vertical"
     tools:context=".TextoActivity">
 
     <TextView
@@ -13,5 +14,19 @@
         android:layout_height="wrap_content">
         android:textColor="#F54406"
         android:textSize="25sp"></TextView>
+
+    <EditText
+        android:text="@string/editext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Solo numeros"
+        android:inputType="number"/>
+
 
 </LinearLayout>

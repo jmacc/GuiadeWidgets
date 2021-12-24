@@ -7,5 +7,6 @@
     <string name="widgets5">Estas en Texto</string>
     <string name="widgets6">Estas en Seleccion</string>
     <string name="widgets7">Estas en botones</string>
+    <string name="editext1">Soy un EditText</string>
     />
 </resources>
