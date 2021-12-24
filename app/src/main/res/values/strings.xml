@@ -8,5 +8,6 @@
     <string name="widgets6">Estas en Seleccion</string>
     <string name="widgets7">Estas en botones</string>
     <string name="editext1">Soy un EditText</string>
+    <string name="solo_numeros">Solo numeros</string>
     />
 </resources>
