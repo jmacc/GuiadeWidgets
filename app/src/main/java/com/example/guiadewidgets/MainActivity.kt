@@ -3,10 +3,10 @@ package com.example.guiadewidgets
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+//import android.util.Log
 import android.widget.Button
-import android.widget.Toast
-import kotlin.math.log
+//import android.widget.Toast
+//import kotlin.math.log
 
 
 class MainActivity : AppCompatActivity() {

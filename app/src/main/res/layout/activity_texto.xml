@@ -16,7 +16,8 @@
         android:textSize="25sp"></TextView>
 
     <EditText
-        android:text="@string/editext1"
+        android:id="@+id/txtNombre"
+       android:hint="@string/nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="no"
@@ -24,12 +25,20 @@
         tools:ignore="LabelFor,TextFields" />
 
     <EditText
+        android:id="@+id/txtEdad"
        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/solo_numeros"
+        android:hint="@string/edad"
         android:inputType="number"
         android:autofillHints="auto" />
+
+    <Button
+        android:id="@+id/bntMostrarDatosTexto"
+        android:text="@string/datos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
 
 
 </LinearLayout>
