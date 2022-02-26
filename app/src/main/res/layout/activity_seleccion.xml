@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="8dp"
     tools:context=".SeleccionActivity">
 
@@ -12,6 +13,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#DF0D96"
-        android:textSize="25sp"></TextView>
+        android:textSize="25sp"
+        android:layout_gravity="center"></TextView>
 
+    <CheckBox
+        android:id="@+id/verificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccionado"
+        />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 </LinearLayout>
