@@ -13,6 +13,7 @@
     <string name="datos">Mostrar Datos</string>
     <string name="saludar">Saludar</string>
     <string name="seleccionado">Seleccionado</string>
+    <string name="per">Permitir</string>
 
     />
 </resources>

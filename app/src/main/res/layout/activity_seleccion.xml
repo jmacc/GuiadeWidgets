@@ -21,11 +21,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/seleccionado"
+        android:onClick="validaSeleccion"
         />
 
     <Switch
         android:id="@+id/switch1"
+        android:text="per"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="validaSeleccion"
         />
 </LinearLayout>
