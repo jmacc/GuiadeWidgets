@@ -14,6 +14,7 @@ class TextoActivity : AppCompatActivity() {
         setContentView(R.layout.activity_texto)
 
         val btnMostrarDatosTexto = findViewById<Button>(R.id.bntMostrarDatosTexto)
+
         btnMostrarDatosTexto.setOnClickListener{
 
             //mal

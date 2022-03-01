@@ -7,6 +7,7 @@
     <string name="widgets5">Estas en Texto</string>
     <string name="widgets6">Estas en Seleccion</string>
     <string name="widgets7">Estas en botones</string>
+    <string name="widgets8">REGISTRAR</string>
     <string name="editext1">Soy un EditText</string>
     <string name="nombre">Ingresa tu Nombre</string>
     <string name="edad">Ingresa tu Edad</string>
@@ -14,6 +15,19 @@
     <string name="saludar">Saludar</string>
     <string name="seleccionado">Seleccionado</string>
     <string name="per">Permitir</string>
+    <string name="rad1">Radio Button 1</string>
+    <string name="rad2">Radio Button 2</string>
+    <string name="regTexto">Bienvenido a la seccion de Registro</string>
+    <string name="regCorreo">Ingresa tu Correo</string>
+    <string name="regPass">Ingresa tu contraseña</string>
+    <string name="regTitSex">Sexo</string>
+    <string name="regSex1">Hombre</string>
+    <string name="regSex2">Mujer</string>
+    <string name="Boton">Enviar Datos</string>
+    <string name="correo">Correo</string>
+    <string name="password">Password</string>
+    <string name="radiobutton">RadioButton</string>
+
 
     />
 </resources>

@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-   /*     //metodo funcional 1
+   /*     //Primer ejemplo
         // obtenemos la referencia al boton
         val btnTexto = findViewById<Button>(R.id.btnTexto)
         // establecemos el listener
@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         }
 */
         /*
-        //metodo funcional muestra a traves de un mensaje visual
+        //Segundo Ejemplo
        val btnTexto = findViewById<Button>(R.id.btnTexto)
         btnTexto.setOnClickListener{ Toast.makeText(this@MainActivity, "presionaste Texto",Toast.LENGTH_SHORT).show()}
 
@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         btnSeleccion.setOnClickListener { Toast.makeText(this@MainActivity,"Presionaste Seleccion",Toast.LENGTH_SHORT).show() }
     //----------------------------------------------------------------------------------------------------------------------
 */
-
+// Tercer Ejemplo
     val btnTexto = findViewById<Button>(R.id.btnTexto)
         //Enviamos los datos a traves del Log
        // btnTexto.setOnClickListener { Log.d("Mensaje","Presionaste Texto") }
@@ -53,11 +53,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 //-----------------------------------------------------------------------------------------
-        val btnBotones = findViewById<Button>(R.id.btnBotones)
+        val btnBotones = findViewById<Button>(R.id.btnRegistro)
        // btnBotones.setOnClickListener { Log.d("Mensaje","Presionaste Botones") }
         //para cambiar de ventana al hacer click
         btnBotones.setOnClickListener {
-            var intent = Intent(applicationContext,BotonesActivity::class.java)
+            var intent = Intent(applicationContext,RegistroActivity::class.java)
             startActivity(intent)
         }
     }
